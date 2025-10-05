@@ -20,6 +20,69 @@
         "maintenance",
         "projectManagement"
       ]
+    },
+    {
+      "login": "amilliiee",
+      "name": "amilliiee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94198758?v=4",
+      "profile": "https://github.com/amilliiee",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Soham-0047",
+      "name": "SOHAM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87080389?v=4",
+      "profile": "https://sohamroy.netlify.app",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Ankit-Kum-ar",
+      "name": "Ankit Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111765525?v=4",
+      "profile": "https://github.com/Ankit-Kum-ar",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "a-woodworth",
+      "name": "a-woodworth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10478733?v=4",
+      "profile": "https://github.com/a-woodworth",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mensonones",
+      "name": "Emerson Vieira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5387202?v=4",
+      "profile": "https://github.com/mensonones",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AparAgarwal",
+      "name": "Apar Agarwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61222846?v=4",
+      "profile": "https://github.com/AparAgarwal",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mitaliiiiii",
+      "name": "mitaliiiiii",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141233593?v=4",
+      "profile": "https://github.com/mitaliiiiii",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "commitType": "docs",

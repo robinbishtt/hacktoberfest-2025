@@ -28,17 +28,23 @@ This guide will help you run the project locally and understand the basic workfl
    cd hacktoberfest-2025-frontend
    ```
 
-2. **Install dependencies**
+2. **Copy environment variables file**
+   ```bash
+   cp .env.example .env
+   ```
+   The API URL is set in `.env` as `VITE_API_URL`. You can use this variable in your code as `import.meta.env.VITE_API_URL`
+
+3. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Start the development server**
+4. **Start the development server**
    ```bash
    npm run dev
    ```
 
-4. **Open your browser and navigate to the URL printed in the terminal**
+5. **Open your browser and navigate to the URL printed in the terminal**
 
    (usually `http://localhost:5173`)
 
@@ -69,3 +75,9 @@ For more details, see [CONTRIBUTING.md](../CONTRIBUTING.md)
 - If you see an error like **command not found: npm**, make sure **Node.js** and **npm** are installed.
 - If the dev server doesn’t start, try deleting `node_modules` and `package-lock.json`, then run `npm install` again.
 - Still stuck? Ask in [main Hacktoberfest Discussion](https://github.com/orgs/OpenCodeChicago/discussions/2) or on [Discord](https://discord.gg/t6MGsCqdFX)
+
+---
+
+## ⭐ Support the Project
+
+If you find this project helpful, please consider starring it on GitHub! It helps us grow and reach more contributors.

@@ -1,8 +1,11 @@
+import router from '../routes/router';
+import { RouterProvider } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+
 export default function App() {
   return (
-    <div>
-      <h1>Hacktoberfest 2025</h1>
-      <h2>Open Code Chicago</h2>
-    </div>
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   );
 }

@@ -21,11 +21,33 @@ Whether it’s your **first pull request** or your **50th**, you are welcome her
 
 Contribute to real-world open source code, learn frontend development, and collaborate with a global community.
 
+### ⭐ Support the Project!
+If you like this project, please consider giving it a ⭐ on GitHub!
+More stars help us reach a wider audience, attract new contributors, and make your contributions even more visible and valuable for your portfolio or employer.
+Thank you for helping our open source community grow!
+
+
 ![Hacktoberfest 2025 - Open Code Chicago](./docs/assets/hacktoberfest2025.png)
 
 ---
 
+## Project Preview
+
+Here’s a sneak peek of the **frontend design (hero section)**:  
+
+![Project Hero Screenshot](./docs/assets/corex-hero-section.jpg)  
+
+---
+
+## Design
+
+You can explore our creative Figma design and UI references here:  
+[Open in Figma](https://www.figma.com/design/XeX3NqT6LPTWrCuj8syMMK/CoreX?node-id=0-1&t=oHdbozLQfS2cLefT-1)
+
+---
+
 ## Table of Contents
+- [Design](#design)
 - [Description](#description)
 - [Who is this for?](#who-is-this-for)
 - [Tech Stack](#tech-stack)
@@ -79,6 +101,12 @@ git clone https://github.com/OpenCodeChicago/hacktoberfest-2025-frontend.git
 cd hacktoberfest-2025-frontend
 ```
 
+2. Copy `.env.example` to `.env`:
+```bash
+# Copy .env.example to .env
+cp .env.example .env
+```
+
 ```bash
 # Install dependencies
 npm install
@@ -88,6 +116,51 @@ npm install
 # Start dev server
 npm run dev
 ```
+
+---
+
+## Backend API Access
+
+Our backend is now live!
+Contributors can connect to the deployed API to retrieve product data for their tasks.
+
+**Base URL:**  
+`https://corexshoptest.onrender.com`
+
+**API URL is available as the environment variable `VITE_API_URL`.**
+
+### Available Endpoints
+
+- `GET /api/products`  
+  Retrieve all products (supports pagination and filtering).
+
+- `GET /api/products/:id`  
+  Retrieve a single product by its ID.
+
+- `GET /api/products?category=Protein`  
+  Filter products by category.
+
+- `GET /api/products?goals=Weight Loss`  
+  Filter products by goal.
+
+- `GET /api/products?minPrice=20&maxPrice=50`  
+  Filter products by price range.
+
+- `GET /api/products?search=whey`  
+  Search products by keyword.
+
+- `GET /api/products?category=Protein&goals=Muscle Growth&minPrice=30`  
+  Combine multiple filters.
+
+- `GET /api/products?page=1&limit=10`  
+  Pagination support.
+
+**Example usage:**
+```http
+GET https://corexshoptest.onrender.com/api/products?category=Protein&minPrice=20&maxPrice=50&page=1&limit=10
+```
+
+**Feel free to use these endpoints in your components and features! If you have questions about the API, open an issue or ask in our Discord.**
 
 ---
 
@@ -140,7 +213,9 @@ hacktoberfest-2025-frontend/                     # Main project root
 ## Contributing
 
 We welcome contributions from everyone!
-Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to get started.  
+Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to get started.
+
+💡 **Tip:** Before working on UI-related issues, please refer to the [Design section](#design) for Figma files and UI guidelines.
 
 ---
 
@@ -185,6 +260,15 @@ Thanks goes to these wonderful people:
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://alexsmagin.dev"><img src="https://avatars.githubusercontent.com/u/107826794?v=4?s=100" width="100px;" alt="Alex Smagin"/><br /><sub><b>Alex Smagin</b></sub></a><br /><a href="https://github.com/OpenCodeChicago/hacktoberfest-2025-frontend/commits?author=Alexandrbig1" title="Documentation">📖</a> <a href="#infra-Alexandrbig1" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Alexandrbig1" title="Maintenance">🚧</a> <a href="#projectManagement-Alexandrbig1" title="Project Management">📆</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/amilliiee"><img src="https://avatars.githubusercontent.com/u/94198758?v=4?s=100" width="100px;" alt="amilliiee"/><br /><sub><b>amilliiee</b></sub></a><br /><a href="https://github.com/OpenCodeChicago/hacktoberfest-2025-frontend/commits?author=amilliiee" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://sohamroy.netlify.app"><img src="https://avatars.githubusercontent.com/u/87080389?v=4?s=100" width="100px;" alt="SOHAM"/><br /><sub><b>SOHAM</b></sub></a><br /><a href="https://github.com/OpenCodeChicago/hacktoberfest-2025-frontend/commits?author=Soham-0047" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Ankit-Kum-ar"><img src="https://avatars.githubusercontent.com/u/111765525?v=4?s=100" width="100px;" alt="Ankit Kumar"/><br /><sub><b>Ankit Kumar</b></sub></a><br /><a href="https://github.com/OpenCodeChicago/hacktoberfest-2025-frontend/commits?author=Ankit-Kum-ar" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/a-woodworth"><img src="https://avatars.githubusercontent.com/u/10478733?v=4?s=100" width="100px;" alt="a-woodworth"/><br /><sub><b>a-woodworth</b></sub></a><br /><a href="https://github.com/OpenCodeChicago/hacktoberfest-2025-frontend/commits?author=a-woodworth" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mensonones"><img src="https://avatars.githubusercontent.com/u/5387202?v=4?s=100" width="100px;" alt="Emerson Vieira"/><br /><sub><b>Emerson Vieira</b></sub></a><br /><a href="https://github.com/OpenCodeChicago/hacktoberfest-2025-frontend/commits?author=mensonones" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/AparAgarwal"><img src="https://avatars.githubusercontent.com/u/61222846?v=4?s=100" width="100px;" alt="Apar Agarwal"/><br /><sub><b>Apar Agarwal</b></sub></a><br /><a href="https://github.com/OpenCodeChicago/hacktoberfest-2025-frontend/commits?author=AparAgarwal" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mitaliiiiii"><img src="https://avatars.githubusercontent.com/u/141233593?v=4?s=100" width="100px;" alt="mitaliiiiii"/><br /><sub><b>mitaliiiiii</b></sub></a><br /><a href="https://github.com/OpenCodeChicago/hacktoberfest-2025-frontend/commits?author=mitaliiiiii" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
@@ -195,6 +279,9 @@ Thanks goes to these wonderful people:
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://allcontributors.org) specification.  
+
+> Want to be listed here? [See how to add yourself!](./CONTRIBUTING.md#get-recognized-with-the-all-contributors-bot)
+
 Contributions of any kind welcome!
 
 ---
